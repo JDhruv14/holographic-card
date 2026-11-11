@@ -1,0 +1,8 @@
+{
+  "image": "https://images.pokemontcg.io/cel25c/4_A_hires.png",
+  "crop": [88, 131, 556, 400],
+  "outline": 205,
+  "keep": [[352, 182], [421, 306]],
+  "drop": [[385, 341]],
+  "out": "art/charizard.png"
+}

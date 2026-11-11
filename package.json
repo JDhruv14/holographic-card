@@ -1,0 +1,19 @@
+{
+  "name": "holo-pokemon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Claude skill and WebGL component for interactive 3D holographic Pokémon in a Windows 98 window.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json",
+    "cutout": "uv run scripts/cutout.py"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
+}

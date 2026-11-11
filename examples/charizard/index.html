@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>charizard.exe</title>
+<style>
+  html, body { height: 100%; margin: 0; background: #fff; overflow: hidden; }
+  #holo { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+  #holo.hold { cursor: grabbing; }
+  #error { display: none; position: fixed; inset: 0; place-items: center; font: 14px/1.5 ui-monospace, monospace; color: #444; }
+  .failed #error { display: grid; }
+</style>
+</head>
+<body>
+  <canvas id="holo" role="img" aria-label="A Windows 98 window titled charizard.exe holding a holographic Charizard. Move the pointer to tilt it; press or hold Space to make it breathe fire."></canvas>
+  <p id="error"></p>
+  <script type="module" src="./main.ts"></script>
+</body>
+</html>
