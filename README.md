@@ -7,10 +7,6 @@ a CRT screen.
 
 ![charizard.exe: a Windows 98 window holding a holographic Charizard that tilts toward the cursor and breathes fire out past the window frame](media/charizard.gif)
 
-| Full breath | Zoomed in |
-|---|---|
-| ![Charizard mid-breath, the flame spilling out of the window onto the white page](media/fire.jpg) | ![A closer view of the head and the flame, with the CRT lines visible](media/zoomed.jpg) |
-
 ## What's in the repo
 
 | | |
