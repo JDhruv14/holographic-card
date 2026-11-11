@@ -90,7 +90,7 @@ def main(recipe_path):
 
     scan = out.parent / "scan.png"
     if not scan.exists():
-        req = urllib.request.Request(r["image"], headers={"User-Agent": "holo-pokemon cutout"})
+        req = urllib.request.Request(r["image"], headers={"User-Agent": "holographic-card cutout"})
         scan.write_bytes(urllib.request.urlopen(req).read())
 
     x, y, w, h = r["crop"]

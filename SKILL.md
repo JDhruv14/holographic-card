@@ -1,5 +1,5 @@
 ---
-name: holo-pokemon
+name: holographic-card
 description: Build interactive 3D holographic Pokémon (or any trading-card creature) shown inside a Windows 98 style window, drawn with WebGL2 and TypeScript — the window tilts with the pointer, the foil sparkles, the figure turns its head and breathes fire (or water, or anything else), and a CRT layer sits over everything. Use this whenever someone asks for a holographic or holo Pokémon card, a "charizard.exe" style window, a retro Win98 window with a living card inside, a tilt/foil/CRT card component, another Pokémon in this style, or to recreate a clip like this — even if they never say WebGL or Win98.
 ---
 

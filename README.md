@@ -1,4 +1,4 @@
-# holo-pokemon
+# holographic-card
 
 A Claude skill and a small WebGL2 + TypeScript library for interactive 3D holographic
 Pokémon in a Windows 98 window. The window tilts with the pointer, the foil sparkles
@@ -21,7 +21,7 @@ a CRT screen.
 For Claude Code, clone it into your skills folder:
 
 ```sh
-git clone https://github.com/JDhruv14/holo-pokemon ~/.claude/skills/holo-pokemon
+git clone https://github.com/JDhruv14/holographic-card ~/.claude/skills/holographic-card
 ```
 
 or into `.claude/skills/` inside a single project. Then ask for what you want, for example:
